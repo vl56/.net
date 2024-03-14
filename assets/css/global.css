@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/*-- Fonte para pagina --*/
+@import url();
+
+/*-- Link para importação de icones --*/
+@import url();
+
+
+/*-- Importação de Formatação dos estilos da paginas --*/
+
+@import "menu.css";
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 100vw;  
+	/* Junção de flex-grow, flex-shrink e flex-basis.  */
+	/* flex-grow – Habilidade de um flex item crescer. */
+	/* flex-shrink - Capacidade de redução do item.    */
+	/* flex-basis – Tamanho inicial do item.           */
+}
+
+/* Formatação comum entre os elementos. */
+header, nav, main, aside, footer {
+	/* Cor do fundo. */
+	background: #a1a1a1;
+
+	/* Exibição flexível.                          */
+	/* Torna o elemento um flex container          */
+	/* e os seus elementos internos em flex-itens. */
+	display: flex;
+
+	/* Margem externa de todos os lados. */
+	margin: 3px;
+}
+
+/* Seletores para formatação individual. */
+
+
+
+main {
+	/* Realizar a subtração de 100% da altura vertical menos a soma    */
+	/* da altura dos elementos ( 400px ) com as suas margens ( 36px ). */
+	height: calc(100vh - 224px);
+
+	/* Junção de flex-grow, flex-shrink e flex-basis.  */
+	/* flex-grow – Habilidade de um flex item crescer. */
+	/* flex-shrink - Capacidade de redução do item.    */
+	/* flex-basis – Tamanho inicial do item.           */
+	flex: 20 1 500px;
+}
+
+aside {
+	/* Junção de flex-grow, flex-shrink e flex-basis.  */
+	/* flex-grow – Habilidade de um flex item crescer. */
+	/* flex-shrink - Capacidade de redução do item.    */
+	/* flex-basis – Tamanho inicial do item.           */
+	flex: 1 1 200px;
+}
+
+footer {
+	/* Altura do elemento. */
+	height: 100px;
+
+	/* Junção de flex-grow, flex-shrink e flex-basis.  */
+	/* flex-grow – Habilidade de um flex item crescer. */
+	/* flex-shrink - Capacidade de redução do item.    */
+	/* flex-basis – Tamanho inicial do item.           */
+	flex: 1 1 100vw;
+}
+
+a {
+	/* Remove a decoração padrão do elemento. */
+	text-decoration: none;
+
+	/* Definir a cor da fonte para o padrão do elemento pai. */
+	color: inherit;
+}
+
+/* Altera o estilo dos elementos para serem apresentados */ 
+/* em telas menores que 717px. */
