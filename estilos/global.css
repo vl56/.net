@@ -1,7 +1,19 @@
 @charset "UTF-8";
 
-
+/*-- Fontes e estilos --*/
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://www.w3schools.com/lib/w3-colors-highway.css);
+@import url(https://www.w3schools.com/w3css/4/w3.css);
+/*<link rel="preconnect" >
+<link rel="preconnect" href="" crossorigin>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*/
+/*------------------------------------------------------------------------------------------------------------------------*/
 @import "menu.css";
+@import "sobre.css";
 @import "servicos.css";
 @import "projetos.css";
 @import "contato.css";
@@ -9,6 +21,24 @@
 
 
 :root {
+/*-- Cores do backgroud --*/
+
+    --servico-cor:hsl(60, 45, 50%);
+    --projetos-cor:hsl(10, 45, 50%);
+    --contato-cor:hsl(0, 0, 100%);
+
+    /*-- Fonte e tamanho --*/
+
+    --title-span-color: rgb(24, 78, 129);
+
+  --font-medium: 1em;
+  --font-medium-large: 1.25em;
+  --font-large: 1.5rem;
+  --font-x-large: 2rem;
+  --font-2x-large: 3rem;
+  --font-3x-large: 3.5rem;
+
+  --transition-fast: 0.2s;
 
 
 }
