@@ -1,16 +1,5 @@
 @charset "UTF-8";
 
-section#sobre {
-
-    height: 600px;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: var(--contato-cor);
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px solid black;
-}
-
-
 
 /*About*/
 .about {
@@ -32,8 +21,7 @@ section#sobre {
   .content p {
     margin-top: 15px !important;
   }
-
-
+  
   .leadership {
     margin-top: 50px;
   }
