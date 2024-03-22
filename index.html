@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/css/global.css">
-	<link rel="stylesheet" href="assets/media/media-query.css">
-	<title>VL56 Consultorias</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/global.css">
+    <title>Consultorias</title>
 </head>
 <body>
+    <header class="menu">
+        <h1>Consultorias</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<header>
-		<a href="index.html id="logo"><img src="#" alt=""></a>
+    <section id="home">
+        <h2>Sobre nós</h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            At nobis quaerat facilis, voluptatibus labore quidem quis odio id, dolores corrupti animi suscipit laborum omnis iure! 
+            Pariatur quos vel obcaecati eos.</p>
+    </section>
 
-		<button id="openMenu">&#9776;</button>
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Consultoria Financeira</li>
+            <li>Consultoria de Marketing</li>
+            <li>Consultoria de Gestão</li>
+            <li>Consultoria de Tecnologia</li>
+        </ul>
+    </section>
 
-		<nav id="menu">
+    <section id="projetos">
+        <h2>Nossos Projetos</h2>
+        <ul>
+            <li>Consultoria Financeira</li>
+            <li>Consultoria de Marketing</li>
+            <li>Consultoria de Gestão</li>
+            <li>Consultoria de Tecnologia</li>
+        </ul>
+    </section>
 
-			<button id="closeMenu">X</button>
+    <section id="contato">
+        <h2>Abra um Ticket de Serviço</h2>
+        <form id="ticket-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Abrir Ticket</button>
+        </form> 
+        <p>Para suporte imediato, entre em contato conosco via Telegram: <a href="https://t.me/SeuCanalNoTelegram" target="_blank" rel="noopener noreferrer">Abrir no Telegram</a></p>
+    </section>
 
-			<a href="#">Inicio</a>
-			<a href="#">Serviços</a>
-			<a href="#">Projetos</a>
-			<a href="">Contato</a>
-		</nav>
-		
-	</header>
-
-	<!-- Agrupa informações e links relacionado ao conteúdo principal. -->
-	<aside>
-		
-		
-	</aside>
-
-	<!-- Agrupa o conteúdo principal da página ou aplicação. -->
-	<main>Main</main>
-
-	<!-- Agrupa informações de autoria, direitos autorais, contato, 
-		   mapa do site, links e documento relacionados. -->
-	<footer>Footer</footer>
-
-	<!-- Importação do arquivo JavaScript. -->
-	<script type="text/javascript" src="assets/js/script.js"></script>
-</body>
+        <footer>
+            <p>&copy; 2024 Consultorias. Todos os direitos reservados.</p>
+        </footer>
+    
+        <script src="js/script.js"></script>
+        <script src="js/ticket.js"></script>
+    </body>
+</html>

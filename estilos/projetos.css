@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+
+section#projetos {
+
+    height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
